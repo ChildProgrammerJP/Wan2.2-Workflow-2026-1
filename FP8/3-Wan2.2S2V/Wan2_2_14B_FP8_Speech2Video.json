@@ -2466,7 +2466,7 @@
       "title": "Note（メモ）",
       "properties": {},
       "widgets_values": [
-        "Stupid hack to fix the first frame being overbaked by the VAE, double the first frame and remove it after decoding.\n（VAEによって最初のフレームが過度に焼き込まれる（オーバーベイクされる）のを直す簡単なハック：最初のフレームを複製してデコード後に削除する。）"
+        "Stupid hack to fix the first frame being overbaked by the VAE, double the first frame and remove it after decoding.\n（VAEによって最初のフレームが「オーバーベイクされる：過度に焼き込まれる」のを直す簡単なハック：最初のフレームを複製してデコード後に削除する。）"
       ],
       "color": "#432",
       "bgcolor": "#000"
