@@ -1,7 +1,7 @@
 {
   "id": "ec7da562-7e21-4dac-a0d2-f4441e1efd3b",
   "revision": 0,
-  "last_node_id": 122,
+  "last_node_id": 123,
   "last_link_id": 191,
   "nodes": [
     {
@@ -438,36 +438,6 @@
       ]
     },
     {
-      "id": 64,
-      "type": "MarkdownNote",
-      "pos": [
-        -632.862532272889,
-        332.9788942495849
-      ],
-      "size": [
-        490,
-        160
-      ],
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "VRAM Usage",
-      "properties": {
-        "ue_properties": {
-          "version": "7.5.2",
-          "widget_ue_connectable": {},
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "## GPU:RTX4090D 24GB\n\n| Model            | Size |VRAM Usage | 1st Generation | 2nd Generation |\n|---------------------|-------|-----------|---------------|-----------------|\n| fp8_scaled               |640*640| 84%               | ≈  536s              | ≈ 513s                   |\n| fp8_scaled +  4steps LoRA  | 640*640  | 89%                | ≈ 108s               | ≈ 71s                   |"
-      ],
-      "color": "#432",
-      "bgcolor": "#000"
-    },
-    {
       "id": 114,
       "type": "EmptyLatentImage",
       "pos": [
@@ -479,7 +449,7 @@
         106
       ],
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -520,7 +490,7 @@
         59.98149108886719
       ],
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -566,7 +536,7 @@
         106
       ],
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -615,7 +585,7 @@
         82
       ],
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -662,7 +632,7 @@
         82
       ],
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1014,7 +984,7 @@
         106
       ],
       "flags": {},
-      "order": 10,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1211,66 +1181,6 @@
       "bgcolor": "#533"
     },
     {
-      "id": 106,
-      "type": "MarkdownNote",
-      "pos": [
-        -446.98223083115596,
-        839.8340134900052
-      ],
-      "size": [
-        351.5863092971715,
-        178.55356734908605
-      ],
-      "flags": {},
-      "order": 11,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Markdown Note（メモ）",
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "1. Box-select then use Ctrl + B to enable<br>\n（各ノードのボックス選択後、Ctrl + B で有効化）<br>\n2. If you don't want to run both groups simultaneously, don't forget to use **Ctrl + B** to disable the **fp8_scaled + 4steps LoRA** group after enabling the **fp8_scaled** group, or try the [partial - execution](https://docs.comfy.org/interface/features/partial-execution) feature.<br>\n（両グループを同時に実行したくない場合は、fp8_scaled グループを有効化した後、fp8_scaled + 4steps LoRA グループを無効化するために Ctrl + B を使用することを忘れないでください。または、部分実行機能を試してみてください。）"
-      ],
-      "color": "#432",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 62,
-      "type": "MarkdownNote",
-      "pos": [
-        -608.4415386622389,
-        -315.95778849916996
-      ],
-      "size": [
-        480,
-        550
-      ],
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Model Links",
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "[Tutorial](https://〜\n)\n\n**Diffusion Model**       \n- [wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors)\n- [wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors)\n\n**LoRA**\n\n- [wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors)\n- [wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors)\n\n**VAE**\n- [wan_2.1_vae.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n**Text Encoder**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\nFile save location\n\n```\nComfyUI/\n├───📂 models/\n│   ├───📂 unet/\n│   │   ├─── wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors\n│   │   └─── wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors\n│   ├───📂 loras/\n│   │   ├───wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors\n│   │   └───wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   └───📂 vae/\n│       └── wan_2.1_vae.safetensors\n```\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#000"
-    },
-    {
       "id": 119,
       "type": "SaveImage",
       "pos": [
@@ -1318,7 +1228,7 @@
         127.711102040193
       ],
       "flags": {},
-      "order": 13,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1348,7 +1258,7 @@
         349.93308151739666
       ],
       "flags": {},
-      "order": 14,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1378,7 +1288,7 @@
         88
       ],
       "flags": {},
-      "order": 15,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1408,7 +1318,7 @@
         217.88844944804794
       ],
       "flags": {},
-      "order": 16,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1599,6 +1509,96 @@
         10,
         "enable"
       ]
+    },
+    {
+      "id": 123,
+      "type": "MarkdownNote",
+      "pos": [
+        2304.2078340543335,
+        -306.26448419940147
+      ],
+      "size": [
+        373.9513684167109,
+        142.801225571895
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "チュートリアル",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "**ワークフローの設定方法の詳解**\n\n[【Wan2.2】RunPod編：日本人のためのComfyUIの使い方（設定詳解）](https://child-programmer.com/w22-settings-tutorial-rp\n)\n\n**ComfyUIの現在のチュートリアル**\n\n[【RunPod編】ComfyUIをはじめよう - 画像・動画生成AI](https://child-programmer.com/cui-tutorial-rp)\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 62,
+      "type": "MarkdownNote",
+      "pos": [
+        -608.4415386622389,
+        -315.95778849916996
+      ],
+      "size": [
+        476.74958821698374,
+        448.15376413215387
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Model Links",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "**Diffusion Model**       \n- [wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors)\n- [wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors)\n\n**LoRA**\n\n- [wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors)\n- [wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors)\n\n**VAE**\n- [wan_2.1_vae.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n**Text Encoder**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\nFile save location\n\n```\nComfyUI/\n├───📂 models/\n│   ├───📂 unet/\n│   │   ├─── wan2.2_t2v_low_noise_14B_fp8_scaled.safetensors\n│   │   └─── wan2.2_t2v_high_noise_14B_fp8_scaled.safetensors\n│   ├───📂 loras/\n│   │   ├───wan2.2_t2v_lightx2v_4steps_lora_v1.1_low_noise.safetensors\n│   │   └───wan2.2_t2v_lightx2v_4steps_lora_v1.1_high_noise.safetensors\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   └───📂 vae/\n│       └── wan_2.1_vae.safetensors\n```\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 106,
+      "type": "MarkdownNote",
+      "pos": [
+        -446.98223083115596,
+        839.8340134900052
+      ],
+      "size": [
+        344.0046038696824,
+        202.81502471705085
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Markdown Note（メモ）",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "1. Box-select then use Ctrl + B to enable<br>\n（各ノードのボックス選択後、Ctrl + B で有効化）<br>\n＊注：各ノードのボックス選択後、Ctrl + B で有効化/無効化 の切り替えができます\n<br>\n2. If you don't want to run both groups simultaneously, don't forget to use **Ctrl + B** to disable the **fp8_scaled + 4steps LoRA** group after enabling the **fp8_scaled** group, or try the [partial - execution](https://docs.comfy.org/interface/features/partial-execution) feature.<br>\n（両グループを同時に実行したくない場合は、fp8_scaled グループを有効化した後、fp8_scaled + 4steps LoRA グループを無効化するために Ctrl + B を使用することを忘れないでください。または、部分実行機能を試してみてください。）"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
     }
   ],
   "links": [
@@ -1981,10 +1981,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.6934334949441605,
+      "scale": 0.24304420967399154,
       "offset": [
-        159.64703630996175,
-        441.04618290038826
+        2875.0054001542608,
+        1340.468003527059
       ]
     },
     "frontendVersion": "1.38.4",
