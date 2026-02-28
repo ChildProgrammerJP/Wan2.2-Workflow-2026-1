@@ -1,7 +1,7 @@
 {
   "id": "ec7da562-7e21-4dac-a0d2-f4441e1efd3b",
   "revision": 0,
-  "last_node_id": 195,
+  "last_node_id": 196,
   "last_link_id": 326,
   "nodes": [
     {
@@ -16,7 +16,7 @@
         78
       ],
       "flags": {},
-      "order": 48,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -71,7 +71,7 @@
         46
       ],
       "flags": {},
-      "order": 46,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -334,7 +334,7 @@
         66
       ],
       "flags": {},
-      "order": 32,
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
@@ -391,7 +391,7 @@
         130
       ],
       "flags": {},
-      "order": 25,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -444,7 +444,7 @@
         180
       ],
       "flags": {},
-      "order": 26,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -497,7 +497,7 @@
         210
       ],
       "flags": {},
-      "order": 40,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -592,7 +592,7 @@
         60
       ],
       "flags": {},
-      "order": 23,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -642,7 +642,7 @@
         58
       ],
       "flags": {},
-      "order": 24,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -902,7 +902,7 @@
         82
       ],
       "flags": {},
-      "order": 27,
+      "order": 28,
       "mode": 0,
       "inputs": [
         {
@@ -962,7 +962,7 @@
         82
       ],
       "flags": {},
-      "order": 28,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -1022,7 +1022,7 @@
         164.31304931640625
       ],
       "flags": {},
-      "order": 30,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -1075,7 +1075,7 @@
         110
       ],
       "flags": {},
-      "order": 29,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -1128,7 +1128,7 @@
         210
       ],
       "flags": {},
-      "order": 38,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -1223,7 +1223,7 @@
         58
       ],
       "flags": {},
-      "order": 34,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -1273,7 +1273,7 @@
         60
       ],
       "flags": {},
-      "order": 33,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -1323,7 +1323,7 @@
         46
       ],
       "flags": {},
-      "order": 45,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -1376,7 +1376,7 @@
         78
       ],
       "flags": {},
-      "order": 47,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -1433,7 +1433,7 @@
       "flags": {
         "collapsed": true
       },
-      "order": 31,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -1490,7 +1490,7 @@
         82
       ],
       "flags": {},
-      "order": 35,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -1541,7 +1541,7 @@
         258
       ],
       "flags": {},
-      "order": 37,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -1580,7 +1580,7 @@
         82
       ],
       "flags": {},
-      "order": 36,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -1631,7 +1631,7 @@
         258
       ],
       "flags": {},
-      "order": 39,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -1754,7 +1754,7 @@
         340
       ],
       "flags": {},
-      "order": 43,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -1888,7 +1888,7 @@
         340
       ],
       "flags": {},
-      "order": 44,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -1951,34 +1951,6 @@
       ]
     },
     {
-      "id": 161,
-      "type": "MarkdownNote",
-      "pos": [
-        -470,
-        500
-      ],
-      "size": [
-        530,
-        550
-      ],
-      "flags": {},
-      "order": 13,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Note: Model Links",
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {}
-        }
-      },
-      "widgets_values": [
-        "[Tutorial](https://docs.comfy.org/tutorials/video/wan/wan2-2-fun-control\n) \n\n**Diffusion Model**\n- [wan2.2_fun_control_high_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_fun_control_high_noise_14B_fp8_scaled.safetensors)\n- [wan2.2_fun_control_low_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_fun_control_low_noise_14B_fp8_scaled.safetensors)\n\n**LoRA**\n- [wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors)\n- [wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors)\n\n**VAE**\n- [wan_2.1_vae.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n**Text Encoder**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\nFile save location\n\n```\nComfyUI/\n├───📂 models/\n│   ├───📂 unet/\n│   │   ├─── wan2.2_fun_control_low_noise_14B_fp8_scaled.safetensors\n│   │   └─── wan2.2_fun_control_high_noise_14B_fp8_scaled.safetensors\n│   ├───📂 loras/\n│   │   ├─── wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors\n│   │   └─── wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   └───📂 vae/\n│       └── wan_2.1_vae.safetensors\n```\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#000"
-    },
-    {
       "id": 193,
       "type": "Note",
       "pos": [
@@ -1990,7 +1962,7 @@
         109.77999999999997
       ],
       "flags": {},
-      "order": 14,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2020,7 +1992,7 @@
         88
       ],
       "flags": {},
-      "order": 15,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2048,7 +2020,7 @@
         88
       ],
       "flags": {},
-      "order": 16,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2076,7 +2048,7 @@
         88
       ],
       "flags": {},
-      "order": 17,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2104,7 +2076,7 @@
         88
       ],
       "flags": {},
-      "order": 18,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2132,7 +2104,7 @@
         340
       ],
       "flags": {},
-      "order": 19,
+      "order": 18,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2183,7 +2155,7 @@
         358
       ],
       "flags": {},
-      "order": 20,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2227,7 +2199,7 @@
         326
       ],
       "flags": {},
-      "order": 21,
+      "order": 20,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2280,7 +2252,7 @@
         358
       ],
       "flags": {},
-      "order": 22,
+      "order": 21,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2324,7 +2296,7 @@
         718.0000610351562
       ],
       "flags": {},
-      "order": 50,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -2367,7 +2339,7 @@
         718
       ],
       "flags": {},
-      "order": 49,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -2410,7 +2382,7 @@
         334
       ],
       "flags": {},
-      "order": 41,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -2484,7 +2456,7 @@
         334
       ],
       "flags": {},
-      "order": 42,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -2545,6 +2517,64 @@
         10,
         "enable"
       ]
+    },
+    {
+      "id": 161,
+      "type": "MarkdownNote",
+      "pos": [
+        -470,
+        500
+      ],
+      "size": [
+        516,
+        440
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Note: Model Links",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {}
+        }
+      },
+      "widgets_values": [
+        "**Diffusion Model**\n- [wan2.2_fun_control_high_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_fun_control_high_noise_14B_fp8_scaled.safetensors)\n- [wan2.2_fun_control_low_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_fun_control_low_noise_14B_fp8_scaled.safetensors)\n\n**LoRA**\n- [wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors)\n- [wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors)\n\n**VAE**\n- [wan_2.1_vae.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n**Text Encoder**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\nFile save location\n\n```\nComfyUI/\n├───📂 models/\n│   ├───📂 unet/\n│   │   ├─── wan2.2_fun_control_low_noise_14B_fp8_scaled.safetensors\n│   │   └─── wan2.2_fun_control_high_noise_14B_fp8_scaled.safetensors\n│   ├───📂 loras/\n│   │   ├─── wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors\n│   │   └─── wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   └───📂 vae/\n│       └── wan_2.1_vae.safetensors\n```\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 196,
+      "type": "MarkdownNote",
+      "pos": [
+        2426.834800955462,
+        655.8257633460207
+      ],
+      "size": [
+        373.9513684167109,
+        142.801225571895
+      ],
+      "flags": {},
+      "order": 23,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "チュートリアル",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "**ワークフローの設定方法の詳解**\n\n[【Wan2.2】RunPod編：日本人のためのComfyUIの使い方（設定詳解）](https://child-programmer.com/w22-settings-tutorial-rp\n)\n\n**ComfyUIの現在のチュートリアル**\n\n[【RunPod編】ComfyUIをはじめよう - 画像・動画生成AI](https://child-programmer.com/cui-tutorial-rp)\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
     }
   ],
   "links": [
@@ -3110,10 +3140,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.21762913579014861,
+      "scale": 0.21762913579014867,
       "offset": [
-        2440.819308383108,
-        473.64955530868065
+        3423.38717266663,
+        587.0956202418521
       ]
     },
     "frontendVersion": "1.38.4",
