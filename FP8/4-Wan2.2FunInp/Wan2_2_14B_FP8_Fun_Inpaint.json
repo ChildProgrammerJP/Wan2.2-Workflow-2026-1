@@ -1,7 +1,7 @@
 {
   "id": "ec7da562-7e21-4dac-a0d2-f4441e1efd3b",
   "revision": 0,
-  "last_node_id": 170,
+  "last_node_id": 171,
   "last_link_id": 259,
   "nodes": [
     {
@@ -174,7 +174,7 @@
         180.6060791015625
       ],
       "flags": {},
-      "order": 22,
+      "order": 23,
       "mode": 0,
       "inputs": [
         {
@@ -227,7 +227,7 @@
         82
       ],
       "flags": {},
-      "order": 24,
+      "order": 25,
       "mode": 0,
       "inputs": [
         {
@@ -284,7 +284,7 @@
         58
       ],
       "flags": {},
-      "order": 32,
+      "order": 33,
       "mode": 0,
       "inputs": [
         {
@@ -334,7 +334,7 @@
         82
       ],
       "flags": {},
-      "order": 25,
+      "order": 26,
       "mode": 0,
       "inputs": [
         {
@@ -391,7 +391,7 @@
         60
       ],
       "flags": {},
-      "order": 31,
+      "order": 32,
       "mode": 0,
       "inputs": [
         {
@@ -441,7 +441,7 @@
         46
       ],
       "flags": {},
-      "order": 38,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -546,7 +546,7 @@
         230
       ],
       "flags": {},
-      "order": 30,
+      "order": 31,
       "mode": 0,
       "inputs": [
         {
@@ -647,7 +647,7 @@
         78
       ],
       "flags": {},
-      "order": 40,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -702,7 +702,7 @@
         164.31304931640625
       ],
       "flags": {},
-      "order": 23,
+      "order": 24,
       "mode": 0,
       "inputs": [
         {
@@ -744,34 +744,6 @@
       "bgcolor": "#353"
     },
     {
-      "id": 155,
-      "type": "MarkdownNote",
-      "pos": [
-        -920,
-        440
-      ],
-      "size": [
-        480,
-        530
-      ],
-      "flags": {},
-      "order": 4,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Model Links",
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {}
-        }
-      },
-      "widgets_values": [
-        "[Tutorial](https://docs.comfy.org/tutorials/video/wan/wan2-2-fun-inp\n) \n\n**Diffusion Model**\n- [wan2.2_fun_inpaint_high_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_fun_inpaint_high_noise_14B_fp8_scaled.safetensors)\n- [wan2.2_fun_inpaint_low_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_fun_inpaint_low_noise_14B_fp8_scaled.safetensors)\n\n**LoRA**\n- [wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors)\n- [wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors)\n\n**VAE**\n- [wan_2.1_vae.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n**Text Encoder**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\nFile save location\n\n```\nComfyUI/\n├───📂 models/\n│   ├───📂 unet/\n│   │   ├─── wan2.2_fun_inpaint_high_noise_14B_fp8_scaled.safetensors\n│   │   └─── wan2.2_fun_inpaint_low_noise_14B_fp8_scaled.safetensors\n│   ├───📂 loras/\n│   │   ├─── wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors\n│   │   └─── wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   └───📂 vae/\n│       └── wan_2.1_vae.safetensors\n```\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#000"
-    },
-    {
       "id": 95,
       "type": "KSamplerAdvanced",
       "pos": [
@@ -783,7 +755,7 @@
         350
       ],
       "flags": {},
-      "order": 36,
+      "order": 37,
       "mode": 0,
       "inputs": [
         {
@@ -857,7 +829,7 @@
         314.0001220703125
       ],
       "flags": {},
-      "order": 5,
+      "order": 4,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -909,7 +881,7 @@
         314.0001220703125
       ],
       "flags": {},
-      "order": 6,
+      "order": 5,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -961,7 +933,7 @@
         88
       ],
       "flags": {},
-      "order": 7,
+      "order": 6,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -989,7 +961,7 @@
         88
       ],
       "flags": {},
-      "order": 8,
+      "order": 7,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1017,7 +989,7 @@
         334
       ],
       "flags": {},
-      "order": 34,
+      "order": 35,
       "mode": 0,
       "inputs": [
         {
@@ -1091,7 +1063,7 @@
         211.2323469045595
       ],
       "flags": {},
-      "order": 9,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1121,7 +1093,7 @@
         126.19276173667487
       ],
       "flags": {},
-      "order": 10,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1151,7 +1123,7 @@
         349.76613768283244
       ],
       "flags": {},
-      "order": 11,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1170,36 +1142,6 @@
       "bgcolor": "#000"
     },
     {
-      "id": 162,
-      "type": "MarkdownNote",
-      "pos": [
-        -785.9714954895813,
-        2042.5118410439209
-      ],
-      "size": [
-        351.5863092971715,
-        178.55356734908605
-      ],
-      "flags": {},
-      "order": 12,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Markdown Note（メモ）",
-      "properties": {
-        "ue_properties": {
-          "widget_ue_connectable": {},
-          "version": "7.5.2",
-          "input_ue_unconnectable": {}
-        }
-      },
-      "widgets_values": [
-        "1. Box-select then use Ctrl + B to enable<br>\n（各ノードのボックス選択後、Ctrl + B で有効化）<br>\n2. If you don't want to run both groups simultaneously, don't forget to use **Ctrl + B** to disable the **fp8_scaled + 4steps LoRA** group after enabling the **fp8_scaled** group, or try the [partial - execution](https://docs.comfy.org/interface/features/partial-execution) feature.<br>\n（両グループを同時に実行したくない場合は、fp8_scaled グループを有効化した後、fp8_scaled + 4steps LoRA グループを無効化するために Ctrl + B を使用することを忘れないでください。または、部分実行機能を試してみてください。）"
-      ],
-      "color": "#432",
-      "bgcolor": "#000"
-    },
-    {
       "id": 138,
       "type": "UNETLoader",
       "pos": [
@@ -1211,7 +1153,7 @@
         82
       ],
       "flags": {},
-      "order": 13,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1263,7 +1205,7 @@
         82
       ],
       "flags": {},
-      "order": 14,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1315,7 +1257,7 @@
         110
       ],
       "flags": {},
-      "order": 15,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1369,7 +1311,7 @@
         59.98149108886719
       ],
       "flags": {},
-      "order": 16,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1421,7 +1363,7 @@
         60
       ],
       "flags": {},
-      "order": 26,
+      "order": 27,
       "mode": 0,
       "inputs": [
         {
@@ -1471,7 +1413,7 @@
         58
       ],
       "flags": {},
-      "order": 27,
+      "order": 28,
       "mode": 0,
       "inputs": [
         {
@@ -1521,7 +1463,7 @@
         164.31304931640625
       ],
       "flags": {},
-      "order": 28,
+      "order": 29,
       "mode": 0,
       "inputs": [
         {
@@ -1574,7 +1516,7 @@
         180.6060791015625
       ],
       "flags": {},
-      "order": 29,
+      "order": 30,
       "mode": 0,
       "inputs": [
         {
@@ -1627,7 +1569,7 @@
         314.0001220703125
       ],
       "flags": {},
-      "order": 17,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1679,7 +1621,7 @@
         314.0001220703125
       ],
       "flags": {},
-      "order": 18,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1731,7 +1673,7 @@
         88
       ],
       "flags": {},
-      "order": 19,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1759,7 +1701,7 @@
         88
       ],
       "flags": {},
-      "order": 20,
+      "order": 18,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -1787,7 +1729,7 @@
         230
       ],
       "flags": {},
-      "order": 33,
+      "order": 34,
       "mode": 0,
       "inputs": [
         {
@@ -1888,7 +1830,7 @@
         350
       ],
       "flags": {},
-      "order": 37,
+      "order": 38,
       "mode": 0,
       "inputs": [
         {
@@ -1962,7 +1904,7 @@
         46
       ],
       "flags": {},
-      "order": 39,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -2015,7 +1957,7 @@
         78
       ],
       "flags": {},
-      "order": 41,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -2059,53 +2001,6 @@
       ]
     },
     {
-      "id": 158,
-      "type": "SaveVideo",
-      "pos": [
-        1220,
-        630
-      ],
-      "size": [
-        995.9878997824376,
-        1116.1072785373522
-      ],
-      "flags": {},
-      "order": 42,
-      "mode": 0,
-      "inputs": [
-        {
-          "name": "video",
-          "type": "VIDEO",
-          "link": 259
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.49",
-        "Node name for S&R": "SaveVideo",
-        "enableTabs": false,
-        "tabWidth": 65,
-        "tabXOffset": 10,
-        "hasSecondTab": false,
-        "secondTabText": "Send Back",
-        "secondTabOffset": 80,
-        "secondTabWidth": 65,
-        "ue_properties": {
-          "widget_ue_connectable": {
-            "filename_prefix": true,
-            "format": true,
-            "codec": true
-          }
-        }
-      },
-      "widgets_values": [
-        "video/Wan2.2_14B_FP8_FunInp_4_steps_LoRA",
-        "auto",
-        "auto"
-      ]
-    },
-    {
       "id": 153,
       "type": "SaveVideo",
       "pos": [
@@ -2117,7 +2012,7 @@
         1198.5426307041575
       ],
       "flags": {},
-      "order": 43,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -2160,7 +2055,7 @@
         128.05265734920727
       ],
       "flags": {},
-      "order": 21,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2188,7 +2083,7 @@
         334
       ],
       "flags": {},
-      "order": 35,
+      "order": 36,
       "mode": 0,
       "inputs": [
         {
@@ -2248,6 +2143,141 @@
         0,
         10,
         "enable"
+      ]
+    },
+    {
+      "id": 155,
+      "type": "MarkdownNote",
+      "pos": [
+        -920,
+        440
+      ],
+      "size": [
+        473.64575590690583,
+        438.922501332318
+      ],
+      "flags": {},
+      "order": 20,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Model Links",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {}
+        }
+      },
+      "widgets_values": [
+        "**Diffusion Model**\n- [wan2.2_fun_inpaint_high_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_fun_inpaint_high_noise_14B_fp8_scaled.safetensors)\n- [wan2.2_fun_inpaint_low_noise_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_fun_inpaint_low_noise_14B_fp8_scaled.safetensors)\n\n**LoRA**\n- [wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors)\n- [wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/loras/wan2.2_i2v_lightx2v_4steps_lora_v1_high_noise.safetensors)\n\n**VAE**\n- [wan_2.1_vae.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n**Text Encoder**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\nFile save location\n\n```\nComfyUI/\n├───📂 models/\n│   ├───📂 unet/\n│   │   ├─── wan2.2_fun_inpaint_high_noise_14B_fp8_scaled.safetensors\n│   │   └─── wan2.2_fun_inpaint_low_noise_14B_fp8_scaled.safetensors\n│   ├───📂 loras/\n│   │   ├─── wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors\n│   │   └─── wan2.2_i2v_lightx2v_4steps_lora_v1_low_noise.safetensors\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   └───📂 vae/\n│       └── wan_2.1_vae.safetensors\n```\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 162,
+      "type": "MarkdownNote",
+      "pos": [
+        -785.9714954895813,
+        2042.5118410439209
+      ],
+      "size": [
+        350.790636357891,
+        198.44539083109862
+      ],
+      "flags": {},
+      "order": 21,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Markdown Note（メモ）",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "1. Box-select then use Ctrl + B to enable<br>\n（各ノードのボックス選択後、Ctrl + B で有効化）<br>\n＊注：各ノードのボックス選択後、Ctrl + B で有効化/無効化 の切り替えができます\n<br>\n2. If you don't want to run both groups simultaneously, don't forget to use **Ctrl + B** to disable the **fp8_scaled + 4steps LoRA** group after enabling the **fp8_scaled** group, or try the [partial - execution](https://docs.comfy.org/interface/features/partial-execution) feature.<br>\n（両グループを同時に実行したくない場合は、fp8_scaled グループを有効化した後、fp8_scaled + 4steps LoRA グループを無効化するために Ctrl + B を使用することを忘れないでください。または、部分実行機能を試してみてください。）"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 171,
+      "type": "MarkdownNote",
+      "pos": [
+        2305.066461101187,
+        631.260533881787
+      ],
+      "size": [
+        373.9513684167109,
+        142.801225571895
+      ],
+      "flags": {},
+      "order": 22,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "チュートリアル",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "**ワークフローの設定方法の詳解**\n\n[【Wan2.2】RunPod編：日本人のためのComfyUIの使い方（設定詳解）](https://child-programmer.com/w22-settings-tutorial-rp\n)\n\n**ComfyUIの現在のチュートリアル**\n\n[【RunPod編】ComfyUIをはじめよう - 画像・動画生成AI](https://child-programmer.com/cui-tutorial-rp)\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 158,
+      "type": "SaveVideo",
+      "pos": [
+        1220,
+        630
+      ],
+      "size": [
+        995.9878997824376,
+        1116.1072785373522
+      ],
+      "flags": {},
+      "order": 43,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "link": 259
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.49",
+        "Node name for S&R": "SaveVideo",
+        "enableTabs": false,
+        "tabWidth": 65,
+        "tabXOffset": 10,
+        "hasSecondTab": false,
+        "secondTabText": "Send Back",
+        "secondTabOffset": 80,
+        "secondTabWidth": 65,
+        "ue_properties": {
+          "widget_ue_connectable": {
+            "filename_prefix": true,
+            "format": true,
+            "codec": true
+          }
+        }
+      },
+      "widgets_values": [
+        "video/Wan2.2_14B_FP8_FunInp_4_steps_LoRA",
+        "auto",
+        "auto"
       ]
     }
   ],
@@ -2740,10 +2770,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.2054964832339428,
+      "scale": 0.20549648323394362,
       "offset": [
-        3074.5841127205904,
-        440.1432867944938
+        3825.172093796262,
+        603.9964792275426
       ]
     },
     "frontendVersion": "1.38.4",
