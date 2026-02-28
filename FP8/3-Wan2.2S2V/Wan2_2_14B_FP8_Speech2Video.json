@@ -1,7 +1,7 @@
 {
   "id": "ea7ba43e-ab56-40d4-a298-423f5bfe4462",
   "revision": 0,
-  "last_node_id": 190,
+  "last_node_id": 193,
   "last_link_id": 498,
   "nodes": [
     {
@@ -60,7 +60,7 @@
         46
       ],
       "flags": {},
-      "order": 59,
+      "order": 62,
       "mode": 0,
       "inputs": [
         {
@@ -102,7 +102,7 @@
         180.6060791015625
       ],
       "flags": {},
-      "order": 37,
+      "order": 40,
       "mode": 0,
       "inputs": [
         {
@@ -233,7 +233,7 @@
         250
       ],
       "flags": {},
-      "order": 45,
+      "order": 48,
       "mode": 0,
       "inputs": [
         {
@@ -331,7 +331,7 @@
         60
       ],
       "flags": {},
-      "order": 44,
+      "order": 47,
       "mode": 0,
       "inputs": [
         {
@@ -374,7 +374,7 @@
         82
       ],
       "flags": {},
-      "order": 61,
+      "order": 64,
       "mode": 0,
       "inputs": [
         {
@@ -422,7 +422,7 @@
         78
       ],
       "flags": {},
-      "order": 57,
+      "order": 60,
       "mode": 0,
       "inputs": [
         {
@@ -466,7 +466,7 @@
         106
       ],
       "flags": {},
-      "order": 55,
+      "order": 58,
       "mode": 0,
       "inputs": [
         {
@@ -507,7 +507,7 @@
         164.31304931640625
       ],
       "flags": {},
-      "order": 36,
+      "order": 39,
       "mode": 0,
       "inputs": [
         {
@@ -553,7 +553,7 @@
         318
       ],
       "flags": {},
-      "order": 51,
+      "order": 54,
       "mode": 0,
       "inputs": [
         {
@@ -728,7 +728,7 @@
         80
       ],
       "flags": {},
-      "order": 63,
+      "order": 66,
       "mode": 0,
       "inputs": [
         {
@@ -810,7 +810,7 @@
         318
       ],
       "flags": {},
-      "order": 49,
+      "order": 52,
       "mode": 0,
       "inputs": [
         {
@@ -947,7 +947,7 @@
         46
       ],
       "flags": {},
-      "order": 42,
+      "order": 45,
       "mode": 0,
       "inputs": [
         {
@@ -1098,30 +1098,6 @@
       ]
     },
     {
-      "id": 108,
-      "type": "MarkdownNote",
-      "pos": [
-        -575.3589999999995,
-        83.24689999999973
-      ],
-      "size": [
-        458.70399999999995,
-        502.6619999999998
-      ],
-      "flags": {},
-      "order": 8,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Model Links",
-      "properties": {},
-      "widgets_values": [
-        "[Tutorial](https://docs.comfy.org/tutorials/video/wan/wan2-2-s2v\n) \n\n**diffusion_models**       \n- [wan2.2_s2v_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_s2v_14B_fp8_scaled.safetensors)\n- [wan2.2_s2v_14B_bf16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_s2v_14B_bf16.safetensors)\n\n**audio_encoders**\n- [wav2vec2_large_english_fp16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/audio_encoders/wav2vec2_large_english_fp16.safetensors)\n\n**vae**\n- [wan_2.1_vae.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n**text_encoders**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\n```\nComfyUI/\n├───📂 models/\n│   ├───📂 unet/\n│   │   ├─── wan2.2_s2v_14B_fp8_scaled.safetensors\n│   │   └─── wan2.2_s2v_14B_bf16.safetensors #  The bf16 model will cause less degradation\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   ├───📂 audio_encoders/ # Create one if you can't find this folder\n│   │   └─── wav2vec2_large_english_fp16.safetensors \n│   └───📂 vae/\n│       └── wan_2.1_vae.safetensors\n```\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#000"
-    },
-    {
       "id": 87,
       "type": "92cfa20b-adb6-4f00-8596-f14b534cf926",
       "pos": [
@@ -1133,7 +1109,7 @@
         318
       ],
       "flags": {},
-      "order": 53,
+      "order": 56,
       "mode": 4,
       "inputs": [
         {
@@ -1260,30 +1236,6 @@
       ]
     },
     {
-      "id": 179,
-      "type": "MarkdownNote",
-      "pos": [
-        -520,
-        1710
-      ],
-      "size": [
-        400.5644739300538,
-        108.06316576172094
-      ],
-      "flags": {},
-      "order": 9,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Markdown Note（メモ）",
-      "properties": {},
-      "widgets_values": [
-        "This is the 20-step workflow. We put it here in case some users don't know how to modify the workflow that with Wan2.2 lightning LoRA. If you want to enable it, box-select the workflow and then use Ctrl+B to enable it.<br>\n（これは20ステップのワークフローです。Wan2.2 Lightning LoRAでワークフローを変更する方法がわからないユーザーのためにここに掲載しています。有効化するには、ワークフローの各ノードのボックス選択し、Ctrl+Bキーを押してください。）\n"
-      ],
-      "color": "#432",
-      "bgcolor": "#000"
-    },
-    {
       "id": 147,
       "type": "CLIPLoader",
       "pos": [
@@ -1295,7 +1247,7 @@
         106
       ],
       "flags": {},
-      "order": 10,
+      "order": 8,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1339,7 +1291,7 @@
         82
       ],
       "flags": {},
-      "order": 11,
+      "order": 9,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1381,7 +1333,7 @@
         60
       ],
       "flags": {},
-      "order": 12,
+      "order": 10,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1426,7 +1378,7 @@
         70
       ],
       "flags": {},
-      "order": 13,
+      "order": 11,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1468,7 +1420,7 @@
       "flags": {
         "collapsed": false
       },
-      "order": 14,
+      "order": 12,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1503,7 +1455,7 @@
         82
       ],
       "flags": {},
-      "order": 15,
+      "order": 13,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1541,7 +1493,7 @@
         82
       ],
       "flags": {},
-      "order": 16,
+      "order": 14,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1579,7 +1531,7 @@
         58
       ],
       "flags": {},
-      "order": 17,
+      "order": 15,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -1616,7 +1568,7 @@
         250
       ],
       "flags": {},
-      "order": 46,
+      "order": 49,
       "mode": 0,
       "inputs": [
         {
@@ -1714,7 +1666,7 @@
         60
       ],
       "flags": {},
-      "order": 41,
+      "order": 44,
       "mode": 0,
       "inputs": [
         {
@@ -1757,7 +1709,7 @@
         46
       ],
       "flags": {},
-      "order": 43,
+      "order": 46,
       "mode": 0,
       "inputs": [
         {
@@ -1802,7 +1754,7 @@
         318
       ],
       "flags": {},
-      "order": 50,
+      "order": 53,
       "mode": 0,
       "inputs": [
         {
@@ -1939,7 +1891,7 @@
         318
       ],
       "flags": {},
-      "order": 52,
+      "order": 55,
       "mode": 0,
       "inputs": [
         {
@@ -2076,7 +2028,7 @@
         46
       ],
       "flags": {},
-      "order": 60,
+      "order": 63,
       "mode": 0,
       "inputs": [
         {
@@ -2118,7 +2070,7 @@
         82
       ],
       "flags": {},
-      "order": 62,
+      "order": 65,
       "mode": 0,
       "inputs": [
         {
@@ -2166,7 +2118,7 @@
         106
       ],
       "flags": {},
-      "order": 56,
+      "order": 59,
       "mode": 0,
       "inputs": [
         {
@@ -2207,7 +2159,7 @@
         78
       ],
       "flags": {},
-      "order": 58,
+      "order": 61,
       "mode": 0,
       "inputs": [
         {
@@ -2251,7 +2203,7 @@
         80
       ],
       "flags": {},
-      "order": 64,
+      "order": 67,
       "mode": 0,
       "inputs": [
         {
@@ -2296,7 +2248,7 @@
         164.31304931640625
       ],
       "flags": {},
-      "order": 40,
+      "order": 43,
       "mode": 0,
       "inputs": [
         {
@@ -2342,7 +2294,7 @@
         180.6060791015625
       ],
       "flags": {},
-      "order": 39,
+      "order": 42,
       "mode": 0,
       "inputs": [
         {
@@ -2388,7 +2340,7 @@
         88.07228355285235
       ],
       "flags": {},
-      "order": 38,
+      "order": 41,
       "mode": 0,
       "inputs": [
         {
@@ -2435,7 +2387,7 @@
         169.99999999999994
       ],
       "flags": {},
-      "order": 18,
+      "order": 16,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2443,54 +2395,6 @@
       "properties": {},
       "widgets_values": [
         "Tested all wan2.2 lightning LoRAs; all worked, but many keys didn't match. However, because it reduces generation time a lot, we added this lightning model. If you find the output quality is too bad, you can try the 20 steps workflow without lightning LoRA.\n（すべてのwan2.2 Lightning LoRAをテストしました。すべて動作しましたが、多くのキーが一致しませんでした。ただし、生成時間を大幅に短縮するため、このLightningモデルを追加しました。出力品質が著しく悪い場合は、Lightning LoRAを使用しない20ステップのワークフローをお試しください。）"
-      ],
-      "color": "#432",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 99,
-      "type": "Note",
-      "pos": [
-        2732.099999999999,
-        320
-      ],
-      "size": [
-        228.39713284377558,
-        138.51676754181227
-      ],
-      "flags": {},
-      "order": 19,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Note（メモ）",
-      "properties": {},
-      "widgets_values": [
-        "Stupid hack to fix the first frame being overbaked by the VAE, double the first frame and remove it after decoding.\n（VAEによって最初のフレームが「オーバーベイクされる：過度に焼き込まれる」のを直す簡単なハック：最初のフレームを複製してデコード後に削除する。）"
-      ],
-      "color": "#432",
-      "bgcolor": "#000"
-    },
-    {
-      "id": 186,
-      "type": "Note",
-      "pos": [
-        2735.5459484560483,
-        1915.695349867079
-      ],
-      "size": [
-        228.39713284377558,
-        138.51676754181227
-      ],
-      "flags": {},
-      "order": 20,
-      "mode": 0,
-      "inputs": [],
-      "outputs": [],
-      "title": "Note（メモ）",
-      "properties": {},
-      "widgets_values": [
-        "Stupid hack to fix the first frame being overbaked by the VAE, double the first frame and remove it after decoding.\n（VAEによって最初のフレームが過度に焼き込まれる（オーバーベイクされる）のを直す簡単なハック：最初のフレームを複製してデコード後に削除する。）"
       ],
       "color": "#432",
       "bgcolor": "#000"
@@ -2507,7 +2411,7 @@
         318
       ],
       "flags": {},
-      "order": 54,
+      "order": 57,
       "mode": 4,
       "inputs": [
         {
@@ -2645,7 +2549,7 @@
         158.1818181818182
       ],
       "flags": {},
-      "order": 21,
+      "order": 17,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2669,7 +2573,7 @@
         130
       ],
       "flags": {},
-      "order": 22,
+      "order": 18,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2693,7 +2597,7 @@
         217.2494815629758
       ],
       "flags": {},
-      "order": 23,
+      "order": 19,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -2723,7 +2627,7 @@
         140
       ],
       "flags": {},
-      "order": 24,
+      "order": 20,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2759,7 +2663,7 @@
         314
       ],
       "flags": {},
-      "order": 25,
+      "order": 21,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2803,7 +2707,7 @@
         1348
       ],
       "flags": {},
-      "order": 65,
+      "order": 68,
       "mode": 0,
       "inputs": [
         {
@@ -2836,7 +2740,7 @@
         140
       ],
       "flags": {},
-      "order": 26,
+      "order": 22,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2872,7 +2776,7 @@
         314
       ],
       "flags": {},
-      "order": 27,
+      "order": 23,
       "mode": 0,
       "inputs": [],
       "outputs": [
@@ -2916,7 +2820,7 @@
         1348
       ],
       "flags": {},
-      "order": 66,
+      "order": 69,
       "mode": 0,
       "inputs": [
         {
@@ -2949,7 +2853,7 @@
         440
       ],
       "flags": {},
-      "order": 47,
+      "order": 50,
       "mode": 0,
       "inputs": [
         {
@@ -3026,7 +2930,7 @@
         440
       ],
       "flags": {},
-      "order": 48,
+      "order": 51,
       "mode": 0,
       "inputs": [
         {
@@ -3103,7 +3007,7 @@
         88
       ],
       "flags": {},
-      "order": 28,
+      "order": 24,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3131,7 +3035,7 @@
         88
       ],
       "flags": {},
-      "order": 29,
+      "order": 25,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3159,7 +3063,7 @@
         88
       ],
       "flags": {},
-      "order": 30,
+      "order": 26,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3187,7 +3091,7 @@
         88
       ],
       "flags": {},
-      "order": 31,
+      "order": 27,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3215,7 +3119,7 @@
         434.50747148418793
       ],
       "flags": {},
-      "order": 32,
+      "order": 28,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3239,7 +3143,7 @@
         110.4665073802098
       ],
       "flags": {},
-      "order": 33,
+      "order": 29,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3263,7 +3167,7 @@
         110.4665073802098
       ],
       "flags": {},
-      "order": 34,
+      "order": 30,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3287,7 +3191,7 @@
         434.50747148418793
       ],
       "flags": {},
-      "order": 35,
+      "order": 31,
       "mode": 0,
       "inputs": [],
       "outputs": [],
@@ -3295,6 +3199,192 @@
       "properties": {},
       "widgets_values": [
         "## Batch sizes（バッチサイズ）\nBatch sizes depend on how many Video S2V Extend subgraphs you have added to the workflow.<br>\n（バッチサイズは、ワークフローに追加したVideo S2V Extendサブグラフの数によって決まります。）\n\nEach Video S2V Extend subgraph will add 77 frames to the final output.<br>\n（各Video S2V Extendサブグラフは、最終出力に77フレームを追加します。）\n\nExample（例）:<br>\nIf you added 1 Video S2V Extend subgraph, you should set the batch size to 2.<br>\n（1つのVideo S2V Extendサブグラフを追加した場合、バッチサイズを2に設定する必要があります。）\n\nWe added 2 Video S2V Extend subgraphs, so the batch size value is 3.<br>\n（ビデオS2V拡張サブグラフを2つ追加したため、バッチサイズ値は3です。）\n\n## Chunk length（チャンクの長さ）\n\n77 is the default length from the WAN2.2S2V official code. This model needs at least 73 frames. If you set the value too high, it might cause an out-of-memory issue.<br>\n（77はWAN2.2S2V公式コードのデフォルト長です。このモデルは最低73フレームを必要とします。値を高く設定しすぎると、メモリ不足の問題を引き起こす可能性があります。）\n\nSo you can just leave 77 as it is.<br>\n（ですから、77はそのままにしておいてください。）"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 108,
+      "type": "MarkdownNote",
+      "pos": [
+        -575.3589999999995,
+        83.24689999999973
+      ],
+      "size": [
+        456.64277969574323,
+        409.90708630845035
+      ],
+      "flags": {},
+      "order": 32,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Model Links",
+      "properties": {},
+      "widgets_values": [
+        "**diffusion_models**       \n- [wan2.2_s2v_14B_fp8_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_s2v_14B_fp8_scaled.safetensors)\n- [wan2.2_s2v_14B_bf16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_s2v_14B_bf16.safetensors)\n\n**audio_encoders**\n- [wav2vec2_large_english_fp16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/audio_encoders/wav2vec2_large_english_fp16.safetensors)\n\n**vae**\n- [wan_2.1_vae.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n**text_encoders**   \n- [umt5_xxl_fp8_e4m3fn_scaled.safetensors](https://huggingface.co/Comfy-Org/Wan_2.1_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp8_e4m3fn_scaled.safetensors)\n\n\n```\nComfyUI/\n├───📂 models/\n│   ├───📂 unet/\n│   │   ├─── wan2.2_s2v_14B_fp8_scaled.safetensors\n│   │   └─── wan2.2_s2v_14B_bf16.safetensors #  The bf16 model will cause less degradation\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp8_e4m3fn_scaled.safetensors \n│   ├───📂 audio_encoders/ # Create one if you can't find this folder\n│   │   └─── wav2vec2_large_english_fp16.safetensors \n│   └───📂 vae/\n│       └── wan_2.1_vae.safetensors\n```\n"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 179,
+      "type": "MarkdownNote",
+      "pos": [
+        -520,
+        1710
+      ],
+      "size": [
+        397.1574982205387,
+        147.24338642114503
+      ],
+      "flags": {},
+      "order": 33,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Markdown Note（メモ）",
+      "properties": {},
+      "widgets_values": [
+        "This is the 20-step workflow. We put it here in case some users don't know how to modify the workflow that with Wan2.2 lightning LoRA. If you want to enable it, box-select the workflow and then use Ctrl+B to enable it.<br>\n（これは20ステップのワークフローです。Wan2.2 Lightning LoRAでワークフローを変更する方法がわからないユーザーのためにここに掲載しています。有効化するには、ワークフローの各ノードのボックス選択し、Ctrl+Bキーを押してください。）\n<br>\n＊注：各ノードのボックス選択後、Ctrl + B で有効化/無効化 の切り替えができます"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 186,
+      "type": "Note",
+      "pos": [
+        2735.5459484560483,
+        1915.695349867079
+      ],
+      "size": [
+        228.39713284377558,
+        138.51676754181227
+      ],
+      "flags": {},
+      "order": 34,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Note（メモ）",
+      "properties": {},
+      "widgets_values": [
+        "Stupid hack to fix the first frame being overbaked by the VAE, double the first frame and remove it after decoding.\n（VAEによって最初のフレームが「過度に焼き込まれる：オーバーベイクされる」のを直す簡単なハック - 最初のフレームを複製してデコード後に削除する。）"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 99,
+      "type": "Note",
+      "pos": [
+        2732.099999999999,
+        320
+      ],
+      "size": [
+        228.39713284377558,
+        138.51676754181227
+      ],
+      "flags": {},
+      "order": 35,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Note（メモ）",
+      "properties": {},
+      "widgets_values": [
+        "Stupid hack to fix the first frame being overbaked by the VAE, double the first frame and remove it after decoding.\n（VAEによって最初のフレームが「過度に焼き込まれる：オーバーベイクされる」のを直す簡単なハック - 最初のフレームを複製してデコード後に削除する。）"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 191,
+      "type": "MarkdownNote",
+      "pos": [
+        2072.478119126445,
+        547.083812485314
+      ],
+      "size": [
+        336.58257201215406,
+        88
+      ],
+      "flags": {},
+      "order": 36,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Markdown Note（メモ）",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "Box-select then use Ctrl + B to enable<br>\n（各ノードのボックス選択後、Ctrl + B で有効化）<br>\n＊注：各ノードのボックス選択後、Ctrl + B で有効化/無効化 の切り替えができます"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 192,
+      "type": "MarkdownNote",
+      "pos": [
+        2067.8327612044122,
+        2145.4431515028677
+      ],
+      "size": [
+        336.58257201215406,
+        88
+      ],
+      "flags": {},
+      "order": 37,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "Markdown Note（メモ）",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "Box-select then use Ctrl + B to enable<br>\n（各ノードのボックス選択後、Ctrl + B で有効化）<br>\n＊注：各ノードのボックス選択後、Ctrl + B で有効化/無効化 の切り替えができます"
+      ],
+      "color": "#432",
+      "bgcolor": "#000"
+    },
+    {
+      "id": 193,
+      "type": "MarkdownNote",
+      "pos": [
+        4385.505860161662,
+        120.00513725606186
+      ],
+      "size": [
+        373.9513684167109,
+        142.801225571895
+      ],
+      "flags": {},
+      "order": 38,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "title": "チュートリアル",
+      "properties": {
+        "ue_properties": {
+          "widget_ue_connectable": {},
+          "version": "7.5.2",
+          "input_ue_unconnectable": {}
+        }
+      },
+      "widgets_values": [
+        "**ワークフローの設定方法の詳解**\n\n[【Wan2.2】RunPod編：日本人のためのComfyUIの使い方（設定詳解）](https://child-programmer.com/w22-settings-tutorial-rp\n)\n\n**ComfyUIの現在のチュートリアル**\n\n[【RunPod編】ComfyUIをはじめよう - 画像・動画生成AI](https://child-programmer.com/cui-tutorial-rp)\n"
       ],
       "color": "#432",
       "bgcolor": "#000"
@@ -8365,10 +8455,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.158651639991024,
+      "scale": 0.17451680399012848,
       "offset": [
-        3324.6337778593615,
-        1733.6232156639828
+        3224.6587599140717,
+        1368.017086999982
       ]
     },
     "frontendVersion": "1.38.4",
