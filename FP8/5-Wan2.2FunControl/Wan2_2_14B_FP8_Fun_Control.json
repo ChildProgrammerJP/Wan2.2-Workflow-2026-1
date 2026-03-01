@@ -2322,7 +2322,7 @@
         }
       },
       "widgets_values": [
-        "video/wan2.2_fun_control",
+        "video/wan2.2_14B_FP8_FunControl",
         "auto",
         "auto"
       ]
@@ -2365,7 +2365,7 @@
         }
       },
       "widgets_values": [
-        "video/wan2.2_fun_control_4_steps_LoRA",
+        "video/wan2.2_14B_FP8_FunControl_4_steps_LoRA",
         "auto",
         "auto"
       ]
