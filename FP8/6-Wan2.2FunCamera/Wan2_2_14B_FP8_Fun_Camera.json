@@ -2013,7 +2013,7 @@
         }
       },
       "widgets_values": [
-        "video/wan2.2_fun_camera_4_steps_LoRA",
+        "video/wan2.2_14B_FP8_FunCamera_4_steps_LoRA",
         "auto",
         "auto"
       ]
@@ -2187,7 +2187,7 @@
         }
       },
       "widgets_values": [
-        "video/wan2.2_fun_camera",
+        "video/wan2.2_14B_FP8_FunCamera",
         "auto",
         "auto"
       ]
