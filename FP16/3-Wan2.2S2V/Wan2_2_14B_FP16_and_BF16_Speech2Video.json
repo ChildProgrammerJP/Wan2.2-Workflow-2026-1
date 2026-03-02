@@ -171,14 +171,14 @@
         "Node name for S&R": "VAELoader",
         "models": [
           {
-            "name": "wan2.2_vae.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
+            "name": "wan_2.1_vae.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
             "directory": "vae"
           }
         ]
       },
       "widgets_values": [
-        "wan2.2_vae.safetensors"
+        "wan_2.1_vae.safetensors"
       ]
     },
     {
@@ -1356,14 +1356,14 @@
         "Node name for S&R": "VAELoader",
         "models": [
           {
-            "name": "wan2.2_vae.safetensors",
-            "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors",
+            "name": "wan_2.1_vae.safetensors",
+            "url": "https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors",
             "directory": "vae"
           }
         ]
       },
       "widgets_values": [
-        "wan2.2_vae.safetensors"
+        "wan_2.1_vae.safetensors"
       ]
     },
     {
@@ -3222,7 +3222,7 @@
       "title": "Model Links",
       "properties": {},
       "widgets_values": [
-        "**diffusion_models**       \n- [wan2.2_s2v_14B_bf16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_s2v_14B_bf16.safetensors)\n- [wan2.2_s2v_14B_bf16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_s2v_14B_bf16.safetensors)\n\n**audio_encoders**\n- [wav2vec2_large_english_fp16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/audio_encoders/wav2vec2_large_english_fp16.safetensors)\n\n**vae**\n- [wan2.2_vae.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan2.2_vae.safetensors)\n\n**text_encoders**   \n- [umt5_xxl_fp16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors)\n\n\n```\nComfyUI/\n├───📂 models/\n│   ├───📂 unet/\n│   │   ├─── wan2.2_s2v_14B_bf16.safetensors\n│   │   └─── wan2.2_s2v_14B_bf16.safetensors #  The bf16 model will cause less degradation\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp16.safetensors\n│   ├───📂 audio_encoders/ # Create one if you can't find this folder\n│   │   └─── wav2vec2_large_english_fp16.safetensors \n│   └───📂 vae/\n│       └── wan2.2_vae.safetensors\n```\n"
+        "**diffusion_models**       \n- [wan2.2_s2v_14B_bf16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_s2v_14B_bf16.safetensors)\n- [wan2.2_s2v_14B_bf16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/diffusion_models/wan2.2_s2v_14B_bf16.safetensors)\n\n**audio_encoders**\n- [wav2vec2_large_english_fp16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/audio_encoders/wav2vec2_large_english_fp16.safetensors)\n\n**vae**\n- [wan_2.1_vae.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_Repackaged/resolve/main/split_files/vae/wan_2.1_vae.safetensors)\n\n**text_encoders**   \n- [umt5_xxl_fp16.safetensors](https://huggingface.co/Comfy-Org/Wan_2.2_ComfyUI_repackaged/resolve/main/split_files/text_encoders/umt5_xxl_fp16.safetensors)\n\n\n```\nComfyUI/\n├───📂 models/\n│   ├───📂 unet/\n│   │   ├─── wan2.2_s2v_14B_bf16.safetensors\n│   │   └─── wan2.2_s2v_14B_bf16.safetensors #  The bf16 model will cause less degradation\n│   ├───📂 text_encoders/\n│   │   └─── umt5_xxl_fp16.safetensors\n│   ├───📂 audio_encoders/ # Create one if you can't find this folder\n│   │   └─── wav2vec2_large_english_fp16.safetensors \n│   └───📂 vae/\n│       └── wan_2.1_vae.safetensors\n```\n"
       ],
       "color": "#432",
       "bgcolor": "#000"
