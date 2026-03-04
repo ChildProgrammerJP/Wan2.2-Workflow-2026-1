@@ -250,7 +250,7 @@
         ]
       },
       "widgets_values": [
-        "umt5_xxl_fp16.safetensorss",
+        "umt5_xxl_fp16.safetensors",
         "wan",
         "default"
       ]
