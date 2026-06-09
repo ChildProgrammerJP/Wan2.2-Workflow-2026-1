@@ -417,168 +417,6 @@
       ]
     },
     {
-      "id": 278,
-      "type": "063b0ee8-c72b-442b-8029-dd3d5f4b6650",
-      "pos": [
-        610,
-        -190
-      ],
-      "size": [
-        410,
-        446
-      ],
-      "flags": {},
-      "order": 76,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "model",
-          "type": "MODEL",
-          "link": 696
-        },
-        {
-          "name": "vae",
-          "type": "VAE",
-          "link": 697
-        },
-        {
-          "name": "audio",
-          "type": "AUDIO",
-          "link": 698
-        },
-        {
-          "label": "last_batch_images",
-          "name": "image1",
-          "type": "IMAGE",
-          "link": 710
-        },
-        {
-          "name": "positive",
-          "type": "CONDITIONING",
-          "link": 700
-        },
-        {
-          "name": "negative",
-          "type": "CONDITIONING",
-          "link": 701
-        },
-        {
-          "name": "clip_vision_output",
-          "type": "CLIP_VISION_OUTPUT",
-          "link": 702
-        },
-        {
-          "name": "reference_image",
-          "type": "IMAGE",
-          "link": 703
-        },
-        {
-          "name": "face_video",
-          "type": "IMAGE",
-          "link": 704
-        },
-        {
-          "name": "pose_video",
-          "type": "IMAGE",
-          "link": 705
-        },
-        {
-          "name": "background_video",
-          "type": "IMAGE",
-          "link": 706
-        },
-        {
-          "name": "character_mask",
-          "type": "MASK",
-          "link": 707
-        },
-        {
-          "name": "width",
-          "type": "INT",
-          "widget": {
-            "name": "width"
-          },
-          "link": 708
-        },
-        {
-          "name": "video_frame_offset",
-          "type": "INT",
-          "widget": {
-            "name": "video_frame_offset"
-          },
-          "link": 711
-        }
-      ],
-      "outputs": [
-        {
-          "label": "batch image output",
-          "name": "IMAGE",
-          "type": "IMAGE",
-          "links": []
-        },
-        {
-          "name": "video_frame_offset",
-          "type": "INT",
-          "links": []
-        },
-        {
-          "name": "VIDEO",
-          "type": "VIDEO",
-          "links": [
-            695
-          ]
-        }
-      ],
-      "properties": {
-        "proxyWidgets": [
-          [
-            "-1",
-            "width"
-          ],
-          [
-            "-1",
-            "video_frame_offset"
-          ],
-          [
-            "-1",
-            "seed"
-          ],
-          [
-            "-1",
-            "steps"
-          ],
-          [
-            "-1",
-            "cfg"
-          ],
-          [
-            "-1",
-            "sampler_name"
-          ],
-          [
-            "-1",
-            "scheduler"
-          ],
-          [
-            "-1",
-            "fps"
-          ]
-        ],
-        "cnr_id": "comfy-core",
-        "ver": "0.3.60"
-      },
-      "widgets_values": [
-        1280,
-        0,
-        387378783691198,
-        6,
-        1,
-        "euler",
-        "simple",
-        16
-      ]
-    },
-    {
       "id": 290,
       "type": "UNETLoader",
       "pos": [
@@ -2673,39 +2511,6 @@
       ]
     },
     {
-      "id": 277,
-      "type": "SaveVideo",
-      "pos": [
-        610,
-        320
-      ],
-      "size": [
-        420,
-        558
-      ],
-      "flags": {},
-      "order": 78,
-      "mode": 4,
-      "inputs": [
-        {
-          "name": "video",
-          "type": "VIDEO",
-          "link": 695
-        }
-      ],
-      "outputs": [],
-      "properties": {
-        "cnr_id": "comfy-core",
-        "ver": "0.3.60",
-        "Node name for S&R": "SaveVideo"
-      },
-      "widgets_values": [
-        "video/Wan2_2_14B_FP16_and_BF16_Animate_Mix_Extend",
-        "auto",
-        "auto"
-      ]
-    },
-    {
       "id": 330,
       "type": "MarkdownNote",
       "pos": [
@@ -3901,6 +3706,201 @@
       ],
       "color": "#432",
       "bgcolor": "#000"
+    },
+    {
+      "id": 277,
+      "type": "SaveVideo",
+      "pos": [
+        610,
+        320
+      ],
+      "size": [
+        420,
+        558
+      ],
+      "flags": {},
+      "order": 78,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "video",
+          "type": "VIDEO",
+          "link": 695
+        }
+      ],
+      "outputs": [],
+      "properties": {
+        "cnr_id": "comfy-core",
+        "ver": "0.3.60",
+        "Node name for S&R": "SaveVideo"
+      },
+      "widgets_values": [
+        "video/Wan2_2_14B_FP16_and_BF16_Animate_Mix_Extend",
+        "auto",
+        "auto"
+      ]
+    },
+    {
+      "id": 278,
+      "type": "063b0ee8-c72b-442b-8029-dd3d5f4b6650",
+      "pos": [
+        610,
+        -190
+      ],
+      "size": [
+        410,
+        446
+      ],
+      "flags": {},
+      "order": 76,
+      "mode": 4,
+      "inputs": [
+        {
+          "name": "model",
+          "type": "MODEL",
+          "link": 696
+        },
+        {
+          "name": "vae",
+          "type": "VAE",
+          "link": 697
+        },
+        {
+          "name": "audio",
+          "type": "AUDIO",
+          "link": 698
+        },
+        {
+          "label": "last_batch_images",
+          "name": "image1",
+          "type": "IMAGE",
+          "link": 710
+        },
+        {
+          "name": "positive",
+          "type": "CONDITIONING",
+          "link": 700
+        },
+        {
+          "name": "negative",
+          "type": "CONDITIONING",
+          "link": 701
+        },
+        {
+          "name": "clip_vision_output",
+          "type": "CLIP_VISION_OUTPUT",
+          "link": 702
+        },
+        {
+          "name": "reference_image",
+          "type": "IMAGE",
+          "link": 703
+        },
+        {
+          "name": "face_video",
+          "type": "IMAGE",
+          "link": 704
+        },
+        {
+          "name": "pose_video",
+          "type": "IMAGE",
+          "link": 705
+        },
+        {
+          "name": "background_video",
+          "type": "IMAGE",
+          "link": 706
+        },
+        {
+          "name": "character_mask",
+          "type": "MASK",
+          "link": 707
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 708
+        },
+        {
+          "name": "video_frame_offset",
+          "type": "INT",
+          "widget": {
+            "name": "video_frame_offset"
+          },
+          "link": 711
+        }
+      ],
+      "outputs": [
+        {
+          "label": "batch image output",
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": []
+        },
+        {
+          "name": "video_frame_offset",
+          "type": "INT",
+          "links": []
+        },
+        {
+          "name": "VIDEO",
+          "type": "VIDEO",
+          "links": [
+            695
+          ]
+        }
+      ],
+      "properties": {
+        "proxyWidgets": [
+          [
+            "-1",
+            "width"
+          ],
+          [
+            "-1",
+            "video_frame_offset"
+          ],
+          [
+            "-1",
+            "seed"
+          ],
+          [
+            "-1",
+            "steps"
+          ],
+          [
+            "-1",
+            "cfg"
+          ],
+          [
+            "-1",
+            "sampler_name"
+          ],
+          [
+            "-1",
+            "scheduler"
+          ],
+          [
+            "-1",
+            "fps"
+          ]
+        ],
+        "cnr_id": "comfy-core",
+        "ver": "0.3.60"
+      },
+      "widgets_values": [
+        1280,
+        0,
+        589378783691198,
+        6,
+        1,
+        "euler",
+        "simple",
+        16
+      ]
     }
   ],
   "links": [
@@ -8319,7 +8319,7 @@
               "Node name for S&R": "KSampler"
             },
             "widgets_values": [
-              387378783691198,
+              589378783691198,
               "fixed",
               6,
               1,
@@ -12047,10 +12047,10 @@
   "config": {},
   "extra": {
     "ds": {
-      "scale": 0.15091133223263803,
+      "scale": 0.1509113322326384,
       "offset": [
-        7262.407881587156,
-        1387.1662322166037
+        6387.477792947266,
+        1297.9166749007506
       ]
     },
     "frontendVersion": "1.38.4",
