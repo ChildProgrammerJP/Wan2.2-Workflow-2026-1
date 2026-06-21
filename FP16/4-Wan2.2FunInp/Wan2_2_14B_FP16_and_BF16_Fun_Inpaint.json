@@ -2638,7 +2638,7 @@
   "groups": [
     {
       "id": 17,
-      "title": "Wan2.2_fun_Inp fp16 +  4 steps LoRA（高速版）",
+      "title": "Wan2.2_Fun_Inp fp16 +  4 steps LoRA（高速版）",
       "bounding": [
         -400,
         400,
@@ -2703,7 +2703,7 @@
     },
     {
       "id": 22,
-      "title": "Wan2.2_fun_Inp fp16（高品質版）",
+      "title": "Wan2.2_Fun_Inp fp16（高品質版）",
       "bounding": [
         -397.5239455662152,
         1966.9179423825897,
